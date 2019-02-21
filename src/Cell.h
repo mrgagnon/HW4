@@ -11,10 +11,9 @@
 #include "Organism.h"
 
 class Cell {
-protected:
-	occupationStatus guest;
 private:
 	Organism* o;
+	occupationStatus guest;
 public:
 	Cell();
 	bool setOccupant(occupationStatus g);
